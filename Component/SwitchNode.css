@@ -1,0 +1,438 @@
+.base-icon1,
+.base2 {
+  border-radius: var(--br-3xs);
+}
+.base-icon1 {
+  height: 576.1px;
+  width: 677.8px;
+  position: absolute;
+  margin: 0 !important;
+  right: -553.9px;
+  bottom: 98.5px;
+  object-fit: cover;
+  z-index: 1;
+}
+.base2 {
+  width: 753.4px;
+  height: 781.5px;
+  position: relative;
+  background-color: var(--color-steelblue);
+  display: none;
+  max-width: 100%;
+}
+.platform-painlessly,
+.potential-buyers-on,
+.sell-your-livestock {
+  margin: 0;
+}
+.hotels-how-to-container1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 58.5px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.a-v-l-tree-node {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.livestock-producer-merchant,
+.without-stress-and {
+  margin: 0;
+}
+.hotels-how-to-container2 {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.doubly-linked-list-node {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    1.2999999999999543px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.are-you-a,
+.are-you-a1,
+.do-you-need,
+.p2,
+.p3,
+.p4 {
+  margin: 0;
+}
+.hotels-how-to-container3 {
+  width: 475px;
+  height: 166px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.hash-table,
+.linked-list-node {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.linked-list-node {
+  flex: 1;
+  flex-direction: column;
+  gap: 36px 0;
+}
+.hash-table {
+  width: 506.2px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+}
+.mask6 {
+  height: 60px;
+  width: 177px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-seagreen);
+  display: none;
+}
+.learn-more {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 28px;
+  font-family: var(--font-ubuntu);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.mask-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-16xl) var(--padding-base)
+    var(--padding-15xl);
+  background-color: var(--color-seagreen);
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.mask-parent:hover {
+  background-color: var(--color-mediumseagreen);
+}
+.b-s-t-node,
+.mask-parent,
+.tree-node {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.b-s-t-node {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-steelblue);
+  flex-direction: column;
+  padding: var(--padding-77xl-5) 18.399999999999977px var(--padding-62xl)
+    var(--padding-60xl);
+  box-sizing: border-box;
+  gap: 13px 0;
+  max-width: 100%;
+}
+.tree-node {
+  width: 753.4px;
+  flex-direction: row;
+  position: relative;
+  color: var(--color-white);
+}
+.hotels-how-to {
+  margin: 0;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1.6px;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.binary-max-heap-node,
+.max-heap-node {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.binary-max-heap-node {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  gap: 0 48.37px;
+  grid-template-columns: repeat(4, minmax(207px, 1fr));
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.max-heap-node {
+  width: 1250.3px;
+  display: flex;
+  flex-direction: column;
+  gap: 77px 0;
+}
+.hotels-how-to1 {
+  margin: 0;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1.6px;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.break-point,
+.call-function-node,
+.continue-node {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.call-function-node {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  gap: 0 48.37px;
+  grid-template-columns: repeat(4, minmax(207px, 1fr));
+}
+.break-point,
+.continue-node {
+  display: flex;
+}
+.continue-node {
+  flex: 1;
+  flex-direction: column;
+  gap: 77px 0;
+  max-width: 100%;
+}
+.break-point {
+  width: 1253px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    2.2999999999999545px;
+  box-sizing: border-box;
+}
+.hotels-how-to2 {
+  margin: 0;
+  width: 142px;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1.6px;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.tag-1-in-homepage-parent {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  gap: 0 48.37px;
+  grid-template-columns: repeat(4, minmax(207px, 1fr));
+}
+.break-point1,
+.hotels-how-to-get-fr-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hotels-how-to-get-fr-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 77px 0;
+  max-width: 100%;
+}
+.break-point1 {
+  width: 1252.9px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    1.2999999999999543px;
+  box-sizing: border-box;
+}
+.hotels-how-to3 {
+  margin: 0;
+  height: 39px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1.6px;
+  line-height: 68px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.tag-1-in-homepage-group {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  gap: 0 48.37px;
+  grid-template-columns: repeat(4, minmax(207px, 1fr));
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.break-point2,
+.hotels-how-to-get-fr-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hotels-how-to-get-fr-group {
+  flex: 1;
+  flex-direction: column;
+  gap: 77px 0;
+  max-width: 100%;
+}
+.break-point2 {
+  width: 1253px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    2.2999999999999545px;
+  box-sizing: border-box;
+}
+.case-node,
+.switch-node {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.case-node {
+  width: 1253px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 104px 0;
+}
+.switch-node {
+  width: 1432px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-ubuntu);
+}
+@media screen and (max-width: 1050px) {
+  .hotels-how-to-container1 {
+    font-size: var(--font-size-10xl);
+    line-height: 47px;
+  }
+  .b-s-t-node {
+    padding-top: var(--padding-44xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .hotels-how-to {
+    font-size: var(--font-size-10xl);
+    line-height: 54px;
+  }
+  .binary-max-heap-node {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(207px, 359px));
+  }
+  .hotels-how-to1 {
+    font-size: var(--font-size-10xl);
+    line-height: 54px;
+  }
+  .call-function-node {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(207px, 359px));
+  }
+  .hotels-how-to2 {
+    font-size: var(--font-size-10xl);
+    line-height: 54px;
+  }
+  .tag-1-in-homepage-parent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(207px, 359px));
+  }
+  .hotels-how-to3 {
+    font-size: var(--font-size-10xl);
+    line-height: 54px;
+  }
+  .tag-1-in-homepage-group {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(207px, 359px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .case-node {
+    gap: 52px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hotels-how-to-container1 {
+    font-size: var(--font-size-3xl);
+    line-height: 35px;
+  }
+  .b-s-t-node {
+    padding-top: var(--padding-22xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .hotels-how-to {
+    font-size: var(--font-size-3xl);
+    line-height: 41px;
+  }
+  .binary-max-heap-node {
+    grid-template-columns: minmax(207px, 1fr);
+  }
+  .hotels-how-to1 {
+    font-size: var(--font-size-3xl);
+    line-height: 41px;
+  }
+  .call-function-node {
+    grid-template-columns: minmax(207px, 1fr);
+  }
+  .hotels-how-to2 {
+    font-size: var(--font-size-3xl);
+    line-height: 41px;
+  }
+  .tag-1-in-homepage-parent {
+    grid-template-columns: minmax(207px, 1fr);
+  }
+  .hotels-how-to3 {
+    font-size: var(--font-size-3xl);
+    line-height: 41px;
+  }
+  .tag-1-in-homepage-group {
+    grid-template-columns: minmax(207px, 1fr);
+  }
+  .case-node {
+    gap: 26px 0;
+  }
+}
