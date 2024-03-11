@@ -1,67 +1,66 @@
 .product {
-    width: 915.3px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 26px 41.2px;
-    min-height: 1314px;
-    max-width: 100%;
-  }
-  .loaderIcon {
-    height: 12.9px;
-    width: 60px;
-    position: absolute;
-    margin: 0 !important;
-    right: 714.3px;
-    bottom: 8.1px;
-  }
-  .blog,
-  .frameFAQItWasAHumorousl {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-  }
-  .frameFAQItWasAHumorousl {
-    width: 1479.3px;
-    flex-direction: row;
-    justify-content: center;
-    padding: var(--padding-0) var(--padding-xl) 137px;
+  width: 915.3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px 41.2px;
+  min-height: 1314px;
+  max-width: 100%;
+}
+.loader-icon {
+  height: 12.9px;
+  width: 60px;
+  position: absolute;
+  margin: 0 !important;
+  right: 714.3px;
+  bottom: 8.1px;
+}
+.blog,
+.frame-f-a-q-it-was-a-humorousl {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-f-a-q-it-was-a-humorousl {
+  width: 1479.3px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) 137px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.blog {
+  width: 100%;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 67px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-f-a-q-it-was-a-humorousl {
+    padding-bottom: 89px;
     box-sizing: border-box;
-    max-width: 100%;
-    flex-shrink: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .product {
+    gap: 26px 21px;
+  }
+  .frame-f-a-q-it-was-a-humorousl {
+    padding-bottom: 58px;
+    box-sizing: border-box;
   }
   .blog {
-    width: 100%;
-    background-color: var(--color-aliceblue);
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 67px 0;
-    letter-spacing: normal;
+    gap: 33px 0;
   }
-  @media screen and (max-width: 1200px) {
-    .frameFAQItWasAHumorousl {
-      padding-bottom: 89px;
-      box-sizing: border-box;
-    }
+}
+@media screen and (max-width: 450px) {
+  .blog {
+    gap: 17px 0;
   }
-  @media screen and (max-width: 750px) {
-    .product {
-      gap: 26px 21px;
-    }
-    .frameFAQItWasAHumorousl {
-      padding-bottom: 58px;
-      box-sizing: border-box;
-    }
-    .blog {
-      gap: 33px 0;
-    }
-  }
-  @media screen and (max-width: 450px) {
-    .blog {
-      gap: 17px 0;
-    }
-  }
-  
+}

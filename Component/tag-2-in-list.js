@@ -1,25 +1,21 @@
-import styles from "./Tag2InList.module.css";
+import "./Tag2InList.css";
 
 const Tag2InList = () => {
   return (
-    <div className={styles.tag2InList}>
-      <div className={styles.headerText}>
-        <div className={styles.jun2018}>04 June 2019</div>
+    <div className="tag-2-in-list">
+      <div className="header-text1">
+        <div className="jun-2018">04 June 2019</div>
       </div>
-      <section className={styles.dudeYoureGettingContainer}>
-        <p className={styles.blankLine}>&nbsp;</p>
-        <p className={styles.onlinePlatformTo}>
+      <section className="dude-youre-getting-container">
+        <p className="blank-line">&nbsp;</p>
+        <p className="online-platform-to">
           ONLINE PLATFORM TO BRIDGE IN LIVESTOCK.....
         </p>
       </section>
-      <section className={styles.maskedImage}>
+      <section className="masked-image">
+        <img className="masked-image-child" alt="" src="/rectangle-21.svg" />
         <img
-          className={styles.maskedImageChild}
-          alt=""
-          src="/rectangle-21.svg"
-        />
-        <img
-          className={styles.maskGroupIcon}
+          className="mask-group-icon"
           loading="lazy"
           alt=""
           src="/mask-group@2x.png"

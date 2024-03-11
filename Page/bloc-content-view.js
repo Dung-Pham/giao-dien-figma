@@ -1,12 +1,12 @@
 import HeaderFrame from "../components/HeaderFrame";
-import Footer2 from "../components/Footer2";
-import styles from "./BlogContentView.module.css";
+import Footer from "../components/Footer";
+import "./BlogContentView.css";
 
 const BlogContentView = () => {
   return (
-    <div className={styles.blogContentView}>
+    <div className="blog-content-view">
       <HeaderFrame />
-      <Footer2 />
+      <Footer />
     </div>
   );
 };

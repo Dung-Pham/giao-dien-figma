@@ -1,39 +1,39 @@
-import styles from "./Header.module.css";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div className={styles.header}>
-      <header className={styles.baseRectangle} />
-      <div className={styles.items}>
-        <div className={styles.aboutServices}>
-          <div className={styles.about}>Trang chủ</div>
+    <div className="header">
+      <header className="base-rectangle1" />
+      <div className="items">
+        <div className="about-services">
+          <div className="about">Trang chủ</div>
         </div>
-        <div className={styles.services}>Bác sĩ</div>
-        <div className={styles.aboutServices1}>
-          <div className={styles.team}>Cơ sở y tế</div>
+        <div className="services">Bác sĩ</div>
+        <div className="about-services1">
+          <div className="team">Cơ sở y tế</div>
         </div>
-        <div className={styles.careers}>Cẩm nang</div>
+        <div className="careers">Cẩm nang</div>
       </div>
-      <div className={styles.shadowedFrame}>
-        <div className={styles.buttonFillRoundedFrame}>
-          <div className={styles.enabledisableShadow}>
-            <div className={styles.shadow} />
+      <div className="shadowed-frame">
+        <div className="button-fill-rounded-frame">
+          <div className="enabledisable-shadow">
+            <div className="shadow" />
           </div>
           <img
-            className={styles.systemComponentsbuttonfillIcon}
+            className="system-componentsbuttonfill-icon"
             loading="lazy"
             alt=""
             src="/system-componentsbuttonfillrounded--border@2x.png"
           />
-          <b className={styles.field}>Tư vấn</b>
+          <b className="field">Tư vấn</b>
         </div>
-        <button className={styles.enabledShadowMaskFrame}>
-          <div className={styles.enabledisableShadow1}>
-            <div className={styles.shadow1} />
-            <div className={styles.mask} />
-            <div className={styles.mask1} />
+        <button className="enabled-shadow-mask-frame">
+          <div className="enabledisable-shadow1">
+            <div className="shadow1" />
+            <div className="mask" />
+            <div className="mask1" />
           </div>
-          <b className={styles.field1}>Đăng nhập</b>
+          <b className="field1">Đăng nhập</b>
         </button>
       </div>
     </div>

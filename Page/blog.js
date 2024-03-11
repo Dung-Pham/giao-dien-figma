@@ -2,15 +2,15 @@ import FrameHeader from "../components/FrameHeader";
 import FooterInstance from "../components/FooterInstance";
 import GroupComponent from "../components/GroupComponent";
 import Footer3 from "../components/Footer3";
-import styles from "./Blog.module.css";
+import "./Blog.css";
 
 const Blog = () => {
   return (
-    <div className={styles.blog}>
+    <div className="blog">
       <FrameHeader />
       <FooterInstance />
-      <section className={styles.frameFAQItWasAHumorousl}>
-        <div className={styles.product}>
+      <section className="frame-f-a-q-it-was-a-humorousl">
+        <div className="product">
           <GroupComponent />
           <GroupComponent />
           <GroupComponent />
@@ -24,12 +24,7 @@ const Blog = () => {
           <GroupComponent />
           <GroupComponent />
         </div>
-        <img
-          className={styles.loaderIcon}
-          loading="lazy"
-          alt=""
-          src="/loader.svg"
-        />
+        <img className="loader-icon" loading="lazy" alt="" src="/loader.svg" />
       </section>
       <Footer3 />
     </div>

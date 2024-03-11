@@ -1,30 +1,30 @@
-import styles from "./Tag1InHomepage1.module.css";
+import "./Tag1InHomepage1.css";
 
 const Tag1InHomepage1 = () => {
   return (
-    <div className={styles.tag1InHomepage}>
-      <div className={styles.backgroundFrame}>
-        <div className={styles.jun2018}>28 MARCH 2019</div>
+    <div className="tag-1-in-homepage">
+      <div className="background-frame">
+        <div className="jun-20181">28 MARCH 2019</div>
       </div>
-      <section className={styles.contentFrame}>
-        <h3 className={styles.dudeYoureGettingContainer}>
-          <p className={styles.blankLine}>&nbsp;</p>
-          <p className={styles.whyDoRoasters}>WHY DO ROASTERS</p>
-          <p className={styles.crowAllDay}>CROW ALL DAY?</p>
+      <section className="content-frame">
+        <h3 className="dude-youre-getting-container1">
+          <p className="blank-line1">&nbsp;</p>
+          <p className="why-do-roasters">WHY DO ROASTERS</p>
+          <p className="crow-all-day">CROW ALL DAY?</p>
         </h3>
-        <div className={styles.thereIsA}>
+        <div className="there-is-a">
           There is a moment in the life of any aspiring astronomer that it is
           time to buy that first telescope.
         </div>
       </section>
-      <section className={styles.maskedRectangle}>
+      <section className="masked-rectangle">
         <img
-          className={styles.maskedRectangleChild}
+          className="masked-rectangle-child"
           alt=""
           src="/rectangle-21.svg"
         />
         <img
-          className={styles.maskGroupIcon}
+          className="mask-group-icon1"
           loading="lazy"
           alt=""
           src="/mask-group@2x.png"

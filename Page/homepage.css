@@ -1,16 +1,16 @@
-.forLoop,
-.homePage {
+.for-loop,
+.home-page {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.forLoop {
+.for-loop {
   align-self: stretch;
   gap: 169px 0;
   max-width: 100%;
 }
-.homePage {
+.home-page {
   width: 100%;
   position: relative;
   background-color: var(--color-aliceblue);
@@ -21,18 +21,18 @@
   letter-spacing: normal;
 }
 @media screen and (max-width: 750px) {
-  .forLoop {
+  .for-loop {
     gap: 84px 0;
   }
-  .homePage {
+  .home-page {
     gap: 57px 0;
   }
 }
 @media screen and (max-width: 450px) {
-  .forLoop {
+  .for-loop {
     gap: 42px 0;
   }
-  .homePage {
+  .home-page {
     gap: 29px 0;
   }
 }

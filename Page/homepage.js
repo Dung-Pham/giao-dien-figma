@@ -1,15 +1,15 @@
 import Hero from "../components/Hero";
 import SwitchNode from "../components/SwitchNode";
-import Footer from "../components/Footer";
-import styles from "./HomePage.module.css";
+import Footer1 from "../components/Footer1";
+import "./HomePage.css";
 
 const HomePage = () => {
   return (
-    <div className={styles.homePage}>
+    <div className="home-page">
       <Hero />
-      <section className={styles.forLoop}>
+      <section className="for-loop">
         <SwitchNode />
-        <Footer />
+        <Footer1 />
       </section>
     </div>
   );
