@@ -1,0 +1,142 @@
+.handbooks,
+.lagosCattleMarket {
+  position: relative;
+  line-height: 24px;
+}
+.handbooks {
+  margin: 0;
+  width: 268.8px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.lagosCattleMarket {
+  flex: 1;
+}
+.howItWorksColumn {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 3.800000000000182px;
+  box-sizing: border-box;
+}
+.privacyTermsConditions {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.show {
+  position: relative;
+  line-height: 24px;
+}
+.bogisichGreensText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-0) var(--padding-0);
+}
+.groupButtonsChild {
+  height: 51px;
+  width: 91px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  display: none;
+}
+.privacyTermsConditions1 {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.triangleIcon,
+.triangleIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 8px;
+  height: 6.1px;
+  z-index: 1;
+}
+.triangleIcon1 {
+  z-index: 2;
+}
+.triangleTriangleFrame {
+  width: 8px;
+  height: 6.1px;
+  position: relative;
+}
+.contactsPhoneEmailAddressF {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-0) var(--padding-0);
+}
+.groupButtons {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 0 solid var(--color-gainsboro);
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  gap: var(--gap-xl);
+}
+.contactsFrame,
+.groupButtons,
+.infopixsellzioFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.infopixsellzioFrame {
+  width: 149px;
+  justify-content: flex-start;
+  gap: 0 13px;
+}
+.contactsFrame {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-23xl);
+}
+.baseRectangle,
+.footerInstance {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.baseRectangle {
+  width: 1297px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18.7px 0;
+}
+.footerInstance {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-ubuntu);
+}
+@media screen and (max-width: 1050px) {
+  .handbooks {
+    font-size: var(--font-size-10xl);
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .handbooks {
+    font-size: var(--font-size-3xl);
+    line-height: 14px;
+  }
+}

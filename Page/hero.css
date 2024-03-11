@@ -1,0 +1,381 @@
+.heroChild {
+    width: 1500px;
+    height: 980px;
+    position: relative;
+    background-color: var(--color-darkslateblue);
+    display: none;
+    max-width: 100%;
+  }
+  .functionNode {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-steelblue);
+  }
+  .about {
+    position: relative;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  .sequenceNode {
+    flex: 0.7745;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-0) var(--padding-20xl) var(--padding-0)
+      var(--padding-0);
+  }
+  .services,
+  .team {
+    position: relative;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  .services {
+    width: 83px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .team {
+    align-self: stretch;
+  }
+  .sequenceNode1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-0) var(--padding-base) var(--padding-0)
+      var(--padding-0);
+  }
+  .careers {
+    width: 88px;
+    position: relative;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .constantNode,
+  .items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .items {
+    width: 433px;
+    flex-direction: row;
+    gap: var(--gap-2xs);
+    z-index: 1;
+  }
+  .constantNode {
+    width: 496.8px;
+    flex-direction: column;
+    text-align: left;
+  }
+  .shadow {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-200);
+    box-shadow: 0 20px 30px rgba(24, 44, 79, 0.05);
+  }
+  .field {
+    width: 76.9px;
+    position: absolute;
+    margin: 0 !important;
+    top: 19.6px;
+    left: 50.3px;
+    line-height: 19px;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .systemComponentsbuttonfillIcon {
+    height: 60px;
+    width: 177px;
+    position: relative;
+    object-fit: cover;
+    min-height: 60px;
+    z-index: 2;
+  }
+  .mask {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-81xl);
+    z-index: 3;
+  }
+  .iterationNode {
+    height: 100%;
+    width: 395.2px;
+    margin: 0 !important;
+    position: absolute;
+    top: -0.4px;
+    right: -197.6px;
+    bottom: 0.4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 41.2px;
+  }
+  .enabledisableShadow,
+  .shadow1 {
+    align-self: stretch;
+    position: relative;
+  }
+  .enabledisableShadow {
+    width: 197.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .shadow1 {
+    flex: 1;
+    background-color: var(--color-gray-200);
+    box-shadow: 0 20px 30px rgba(24, 44, 79, 0.05);
+  }
+  .field1,
+  .mask1 {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .mask1 {
+    height: 100%;
+    width: 177px;
+    top: -0.4px;
+    bottom: 0.4px;
+    left: 0.3px;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-seagreen);
+    box-shadow: 0 35px 45px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  .field1 {
+    width: 92px;
+    top: 19px;
+    left: 42.8px;
+    line-height: 19px;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .enabledisableShadow1 {
+    align-self: stretch;
+    width: 197.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+  }
+  .header,
+  .livestock {
+    font-family: var(--font-ubuntu);
+  }
+  .header {
+    margin-left: -134.70000000000005px;
+    width: 1500px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 31.59999999999991px var(--padding-xl) var(--padding-9xl)
+      var(--padding-398xl);
+    box-sizing: border-box;
+    position: sticky;
+    gap: 0 20.3px;
+    top: 0;
+    z-index: 99;
+    max-width: 110%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+  }
+  .livestock {
+    color: var(--color-steelblue);
+  }
+  .andGetThem,
+  .atYourDoorstep,
+  .orderYourLivestock {
+    margin: 0;
+  }
+  .hotelsHowToContainer {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 78px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+    font-family: inherit;
+  }
+  .buyFitForSlaughterAnd,
+  .getItProcessed,
+  .weDeliverTo {
+    margin: 0;
+  }
+  .soYoureTryingContainer {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 33px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .groupingNode {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 43px 0;
+    min-width: 441px;
+    max-width: 100%;
+  }
+  .baseIcon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .elseNode {
+    height: 435px;
+    width: 496px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-0) var(--padding-0);
+    min-width: 496px;
+  }
+  .compositeNode,
+  .elseNode,
+  .hero {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .compositeNode {
+    width: 1232.3px;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
+    gap: 0 38.2px;
+  }
+  .hero {
+    align-self: stretch;
+    background-color: var(--color-darkslateblue);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-0) 0.7000000000000455px var(--padding-202xl)
+      var(--padding-115xl);
+    gap: var(--gap-185xl);
+    text-align: left;
+    font-size: var(--font-size-37xl);
+    color: var(--color-white);
+    font-family: var(--font-ubuntu);
+  }
+  @media screen and (max-width: 1200px) {
+    .header,
+    .hero {
+      padding-left: var(--padding-189xl);
+      box-sizing: border-box;
+    }
+    .hero {
+      gap: var(--gap-83xl);
+      padding-left: var(--padding-48xl);
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .items {
+      display: none;
+    }
+    .constantNode {
+      width: 63.7999999999999px;
+    }
+    .hotelsHowToContainer {
+      font-size: var(--font-size-26xl);
+      line-height: 62px;
+    }
+    .baseIcon {
+      align-self: stretch;
+      width: auto;
+    }
+    .elseNode {
+      flex: 1;
+    }
+    .compositeNode {
+      flex-wrap: wrap;
+    }
+    .hero {
+      padding-bottom: var(--padding-125xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .header {
+      padding-left: var(--padding-85xl);
+      box-sizing: border-box;
+    }
+    .groupingNode {
+      gap: 21px 0;
+    }
+    .elseNode,
+    .groupingNode {
+      min-width: 100%;
+    }
+    .compositeNode {
+      gap: 0 19px;
+    }
+    .hero {
+      gap: var(--gap-32xl);
+      padding-left: var(--padding-14xl);
+      padding-bottom: var(--padding-75xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .team {
+      display: none;
+    }
+    .header {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .hotelsHowToContainer {
+      font-size: var(--font-size-15xl);
+      line-height: 47px;
+    }
+    .soYoureTryingContainer {
+      font-size: var(--font-size-base);
+      line-height: 26px;
+    }
+    .hero {
+      gap: var(--gap-6xl);
+    }
+  }
+  
