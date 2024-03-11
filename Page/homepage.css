@@ -1,0 +1,38 @@
+.forLoop,
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.forLoop {
+  align-self: stretch;
+  gap: 169px 0;
+  max-width: 100%;
+}
+.homePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  padding: var(--padding-0) var(--padding-0) 2563.9px;
+  box-sizing: border-box;
+  gap: 114.5px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .forLoop {
+    gap: 84px 0;
+  }
+  .homePage {
+    gap: 57px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .forLoop {
+    gap: 42px 0;
+  }
+  .homePage {
+    gap: 29px 0;
+  }
+}
